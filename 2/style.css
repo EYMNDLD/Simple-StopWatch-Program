@@ -1,0 +1,53 @@
+html{
+  background-color: rgb(145, 143, 143);
+}
+
+body{
+  width: 500px;
+  height: 500px;
+}
+
+h1{
+  color: rgb(244, 244, 245);
+  text-shadow: 1px 1px black; 
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.StopWatch{
+  font-family: Poppins;
+  display: flexbox;
+  justify-self: center;
+  background-color: rgb(75, 75, 75);
+  border-radius: 3px;
+  min-width: 300px;
+  box-shadow: 1px 1px 20px black;
+  min-height: 300px;
+  
+}
+
+
+button{
+  font-family: Poppins;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 15px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px rgb(122, 122, 122);
+
+}
+
+button:hover{
+  background-color: rgb(204, 204, 204);
+  transform: translateY(-1px);
+  transition: transform 0.3s, border-color 0.3s;
+
+}
+
+#time{
+  text-align: center;
+  text-shadow: 1px 1px black; 
+}
